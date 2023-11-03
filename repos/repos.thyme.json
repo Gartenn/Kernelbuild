@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "LastforRadinka",
-      "repo": "https://github.com/silont-project/kernel_xiaomi_rosemary.git",
-      "branch": "saponaria",
+      "repo": "https://github.com/zainarbani/kernel-mtk.git",
+      "branch": "s",
       "device": "rosemary",
       "defconfig": "rosemary_defconfig"
     },
