@@ -1,13 +1,13 @@
 [
   {
     "kernelSource": {
-      "name": "LastforRadinka",
-      "repo": "https://github.com/zainarbani/kernel-mtk.git",
-      "branch": "s",
-      "device": "rosemary",
-      "defconfig": "rosemary_defconfig"
+      "name": "LastForRadinka",
+      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
+      "branch": "cmi-r-oss",
+      "device": "cmi",
+      "defconfig": "cmi_user_defconfig"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
@@ -16,7 +16,7 @@
         "binPath": ["bin"]
       }
     ],
-    "ccache": true,
+    "ccache": false,
     "params": {
       "ARCH": "arm64",
       "CC": "proton-clang/bin/clang",
@@ -39,8 +39,8 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "repo": "https://github.com/wdnmdkiki/AnyKernel3/",
+      "branch": "cmi"
     }
   }
 ]
