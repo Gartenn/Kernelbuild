@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "LastForRadinka",
-      "repo": "https://github.com/zainarbani/kernel-mtk.git",
-      "branch": "s",
+      "repo": "https://github.com/Nova-Kernels/kernel_xiaomi_rosemary.git",
+      "branch": "nova",
       "device": "rosemary",
       "defconfig": "rosemary_defconfig"
     },
