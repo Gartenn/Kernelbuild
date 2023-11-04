@@ -2,12 +2,12 @@
   {
     "kernelSource": {
       "name": "LastForRadinka",
-      "repo": "https://github.com/Nova-Kernels/kernel_xiaomi_rosemary.git",
-      "branch": "nova",
+      "repo": "https://github.com/silont-project/kernel_xiaomi_rosemary.git",
+      "branch": "saponaria",
       "device": "rosemary",
       "defconfig": "rosemary_defconfig"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
