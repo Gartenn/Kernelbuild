@@ -1,22 +1,22 @@
 [
   {
     "kernelSource": {
-      "name": "kernel-mtk",
+      "name": "LastForRadinka",
       "repo": "https://github.com/zainarbani/kernel-mtk.git",
       "branch": "s",
       "device": "rosemary",
       "defconfig": "rosemary_defconfig"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
         "branch": "master",
         "name": "proton-clang",
-        "binPath": ["./bin"]
+        "binPath": ["bin"]
       }
     ],
-    "ccache": true,
+    "ccache": false,
     "params": {
       "ARCH": "arm64",
       "CC": "proton-clang/bin/clang",
@@ -38,9 +38,9 @@
     },
     "AnyKernel3": {
       "use": true,
-      "release": false,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "release": true,
+      "repo": "https://github.com/wdnmdkiki/AnyKernel3/",
+      "branch": "cmi"
     }
   }
 ]
