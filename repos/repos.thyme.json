@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "LastForRadinka",
-      "repo": "https://github.com/windowz414/kernel_redmi_rosemary.git",
-      "branch": "thirteen",
+      "repo": "https://github.com/fjrXTR/android_kernel_xiaomi_rosemary.git",
+      "branch": "rosemary-r-oss",
       "device": "rosemary",
-      "defconfig": "arch/arm64/configs/rosemary_defconfig"
+      "defconfig": "rosemary_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
