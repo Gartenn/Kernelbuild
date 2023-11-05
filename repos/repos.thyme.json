@@ -5,7 +5,7 @@
       "repo": "https://github.com/windowz414/kernel_redmi_rosemary.git",
       "branch": "thirteen",
       "device": "rosemary",
-      "defconfig": "rosemary_defconfig"
+      "defconfig": "arch/arm64/configs/rosemary_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
