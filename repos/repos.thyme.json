@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "LastForRadinka",
-      "repo": "https://github.com/fjrXTR/android_kernel_xiaomi_rosemary.git",
+      "repo": "https://github.com/clyfly/android_kernel_xiaomi_rosemary.git",
       "branch": "rosemary-r-oss",
       "device": "rosemary",
       "defconfig": "rosemary_defconfig"
@@ -39,8 +39,8 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/wdnmdkiki/AnyKernel3/",
-      "branch": "cmi"
+      "repo": "https://github.com/clyfly/AnyKernel3/",
+      "branch": "master"
     }
   }
 ]
